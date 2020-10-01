@@ -2,6 +2,7 @@
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 $this->addExternalCss($templateFolder.'/css/common.css');
 ?>
+<?if ($arResult["isFormErrors"] == "Y"):?><?=$arResult["FORM_ERRORS_TEXT"];?><?endif;?>
     <div class="contact-form">
         <div class="contact-form__head">
             <div class="contact-form__head-title"><?=$arResult["FORM_TITLE"]?></div>
