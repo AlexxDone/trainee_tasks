@@ -13,6 +13,9 @@
 
 $this->setFrameMode(true);
 $this->addExternalCss($templateFolder.'/css/common.css');
+echo "<pre>";
+var_dump($arResult["SECTIONS"]);
+echo "</pre>";
 ?>
 
 
