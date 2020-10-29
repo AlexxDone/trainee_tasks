@@ -399,7 +399,6 @@ class CustomTypeCProp extends CUserTypeString
         $result = '';
         $arOption = [
             'string' => Loc::getMessage('IEX_CPROP_FIELD_TYPE_STRING'),
-            'file' => Loc::getMessage('IEX_CPROP_FIELD_TYPE_FILE'),
             'text' => Loc::getMessage('IEX_CPROP_FIELD_TYPE_TEXT'),
             'date' => Loc::getMessage('IEX_CPROP_FIELD_TYPE_DATE'),
             'element' => Loc::getMessage('IEX_CPROP_FIELD_TYPE_ELEMENT'),
